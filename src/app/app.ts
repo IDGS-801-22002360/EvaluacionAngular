@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
+// app.ts
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.scss'
+  template: `
+    <h1>{{ title }}</h1>
+    <app-login></app-login>
+  `
 })
 export class App {
-  protected title = 'EvaluacionAngular';
+  title = 'EvaluacionAngular';
 }
