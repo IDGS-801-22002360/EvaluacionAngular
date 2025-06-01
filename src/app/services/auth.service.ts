@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class AuthService {
   private users = [
     { username: 'marco', password: '1234' },
-    { username: 'user', password: '1234' }
+    { username: 'esme', password: '1234' }
   ];
 
   login(username: string, password: string): boolean {
