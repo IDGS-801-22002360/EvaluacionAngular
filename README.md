@@ -12,7 +12,7 @@ Este proyecto es una aplicación sencilla de login hecha con Angular y TypeScrip
 
 ## Video de demostración
 
-[Ver video de funcionamiento](public/video.mp4)
+[Descargar video de funcionamiento](public/video.mp4)
 ![Miniatura del video](public/sc.png)
 
 

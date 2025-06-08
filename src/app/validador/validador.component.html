@@ -1,0 +1,21 @@
+<div class="validador-container">
+  <h2>Validador de CURP y RFC</h2>
+
+  <div class="input-group">
+    <label for="curp">CURP:</label>
+    <input type="text" id="curp" [(ngModel)]="curp" placeholder="Ingresa tu CURP">
+    <button (click)="validarCurp()">Validar CURP</button>
+  </div>
+
+  <div class="input-group">
+    <label for="rfc">RFC:</label>
+    <input type="text" id="rfc" [(ngModel)]="rfc" placeholder="Ingresa tu RFC">
+    <button (click)="validarRfc()">Validar RFC</button>
+  </div>
+
+  <button (click)="validarCoincidencia()">Validar Coincidencia</button>
+
+  <div class="mensaje" *ngIf="mensaje">
+    {{ mensaje }}
+  </div>
+</div>

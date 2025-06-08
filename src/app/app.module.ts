@@ -1,18 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
+import { ValidadorModule } from './validador/validador.module';
 import { App } from './app';
-import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    App,
-    LoginComponent
+    App
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ValidadorModule
   ],
   providers: [],
   bootstrap: [App]
